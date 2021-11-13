@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Drinki</string>
+    <string name="nazwa">nazwa</string>
+    <string name="skladniki">skladniki</string>
+    <string name="opis">opis</string>
+    <string name="instrukcja">instrukcja</string>
+    <string name="Opis">Opis</string>
+    <string name="Wykonanie">Wykonanie</string>
+    <string name="DodajNowyDrink">DodajNowyDrink</string>
+    <string name="PoliczycPromile">PoliczPromile</string>
+    <string name="Waga">label_Waga</string>
+    <string name="label_Plec">label_Plec</string>
+    <string name="label_rozmiar_drinku">label_rozmiar_drinku</string>
+    <string name="label_30ml">label_30ml</string>
+    <string name="label_Radio_60ml">label_30ml</string>
+    <string name="label_266ml">label_266ml</string>
+    <string name="label_procent_alkocholu">label_procent_alkocholu</string>
+    <string name="button_dodaj_drink">DodajDrink</string>
+    <string name="button_Reset">Reset</string>
+    <string name="label_BACLevel">Poziom BAC</string>
+    <string name="label_twoj_status">Twoj status</string>
+    <string name="label_Bezpieczny">Bezpieczny</string>
+    <string name="label_60ml">label_60ml</string>
+    <string name="labelWaga">Waga</string>
+    <string name="labelPlec">Plec</string>
+    <string name="labelRozmiar_drinku">Rozmiar drinku</string>
+    <string name="label30ml">30 ml</string>
+    <string name="label60ml">60 ml</string>
+    <string name="label266ml">266 ml</string>
+    <string name="labelProcent_alkocholu">Procent alkocholu</string>
+    <string name="text_szuk">Szukaj</string>
+</resources>

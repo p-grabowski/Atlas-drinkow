@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="134dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/plec_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:text="Płeć" />
+
+            <CheckBox
+                android:id="@+id/male_box"
+                android:layout_width="103dp"
+                android:layout_height="48dp"
+                android:text="Mężczyzna" />
+
+            <CheckBox
+                android:id="@+id/fem_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kobieta" />
+
+            <TextView
+                android:id="@+id/waga_txt"
+                android:layout_width="108dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Waga(kg)" />
+
+            <EditText
+                android:id="@+id/waga_texview"
+                android:layout_width="167dp"
+                android:layout_height="48dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/pocz_picia_txt"
+                android:layout_width="133dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Początek picia" />
+
+            <EditText
+                android:id="@+id/pocz_pic_textview"
+                android:layout_width="152dp"
+                android:layout_height="48dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/kon_pic_txt"
+                android:layout_width="151dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Koniec picia" />
+
+            <EditText
+                android:id="@+id/koniec_pic_textview"
+                android:layout_width="152dp"
+                android:layout_height="48dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/zawartosc_proc_txt"
+                android:layout_width="205dp"
+                android:layout_height="58dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Zawartość procentowa " />
+
+            <EditText
+                android:id="@+id/proc_textview"
+                android:layout_width="207dp"
+                android:layout_height="48dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/ilosc_txt"
+                android:layout_width="97dp"
+                android:layout_height="57dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Ilość(l)" />
+
+            <EditText
+                android:id="@+id/ilosc_textview"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/wynik_txt"
+                android:layout_width="117dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Wyniki" />
+
+            <EditText
+                android:id="@+id/wynik_proc_textview"
+                android:layout_width="391dp"
+                android:layout_height="69dp"
+                android:text="TextView" />
+
+            <EditText
+                android:id="@+id/czas_wynik_textview"
+                android:layout_width="384dp"
+                android:layout_height="61dp"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
